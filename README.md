@@ -32,7 +32,7 @@ DeepLearning/
     └── README.md                        # This file
 ```
 
-#  Getting Started
+# Getting Started
 Requirements
 Install the necessary dependencies:
 
@@ -45,10 +45,10 @@ Press Q to exit the live window.
 
 Detected faces will be outlined, and emotions displayed in real-time.
 
-Model Training (Optional)
+# Model Training (Optional)
 The CNN was trained using grayscale images (48x48) from the FER dataset. The notebook Kunskapskontroll 2.ipynb contains:
 
-Data preprocessing
+# Data preprocessing
 
 Image generators for training/validation
 
@@ -60,12 +60,12 @@ Accuracy & loss visualization (history_plot.png)
 
 Note: To train the model yourself, download the dataset from Kaggle and place it appropriately, updating paths in the notebook.
 
-Training Results
+# Training Results
 Model achieved ~49% validation accuracy across 7 emotion classes.
 
 
 
-Why Emotion Detection?
+# Why Emotion Detection?
 Facial emotion recognition can be used in:
 
 Human-computer interaction
@@ -78,10 +78,10 @@ Customer feedback systems
 
 Education technology
 
-License
+# License
 This project is for educational use.
 
-Acknowledgments
+# Acknowledgments
 Face Expression Recognition Dataset – Kaggle
 
 TensorFlow / Keras

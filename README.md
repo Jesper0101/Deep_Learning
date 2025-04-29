@@ -32,7 +32,7 @@ DeepLearning/
     └── README.md                        # This file
 ```
 
-Getting Started
+#  Getting Started
 Requirements
 Install the necessary dependencies:
 

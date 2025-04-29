@@ -36,16 +36,10 @@ Getting Started
 Requirements
 Install the necessary dependencies:
 
-bash
-Kopiera
-Redigera
 pip install tensorflow keras opencv-python numpy matplotlib pandas seaborn
 Running Emotion Detection (Live Webcam)
 Make sure your webcam is connected and run:
 
-bash
-Kopiera
-Redigera
 python main.py
 Press Q to exit the live window.
 

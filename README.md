@@ -30,7 +30,7 @@ DeepLearning/
     ├── haarcascade_frontalface_default.xml  # Haar cascade for face detection
     ├── history_plot.png                 # Training accuracy/loss plot
     └── README.md                        # This file
-
+```
 
 Getting Started
 Requirements

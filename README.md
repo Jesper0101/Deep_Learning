@@ -1,12 +1,12 @@
 # 😄 Emotion Detection with CNN & OpenCV
 
-A deep learning project that detects human facial expressions in real-time using a Convolutional Neural Network (CNN), OpenCV for face detection, and TensorFlow/Keras for emotion classification.
+A deep learning-based facial expression recognition system that uses a webcam to detect and classify human emotions in real time using OpenCV and a trained Convolutional Neural Network (CNN).
 
 ---
 
-## 📸 Live Emotion Detection
+## 🧠 Overview
 
-Using your webcam, this project classifies facial expressions into one of the seven emotions:
+This project detects faces in a video stream and classifies emotions into one of the seven categories:
 - Angry
 - Disgust
 - Fear
@@ -15,13 +15,7 @@ Using your webcam, this project classifies facial expressions into one of the se
 - Sad
 - Surprise
 
----
-
-## 🧠 How It Works
-
-- **Face Detection**: Uses OpenCV's Haar Cascade Classifier to detect faces in video frames.
-- **Emotion Classification**: A custom-trained CNN model predicts emotions based on facial features.
-- **Real-Time Display**: Detected emotions are shown directly on the video feed.
+The model was trained using the **[Face Expression Recognition Dataset](https://www.kaggle.com/jonathanoheix/face-expression-recognition-dataset)** available on Kaggle.
 
 ---
 
@@ -29,11 +23,10 @@ Using your webcam, this project classifies facial expressions into one of the se
 
 ```bash
 DeepLearning/
-│
-├── main.py                   # Real-time webcam emotion detection
-├── model_file.keras          # Trained CNN model
-├── haarcascade_frontalface_default.xml  # Haar cascade for face detection
-├── images/                   # Dataset with 7 emotion folders
-│   └── train/                # Training images by emotion
-│   └── validation/           # Validation images by emotion
-└── training_notebook.ipynb   # (Optional) Training logic if separated into notebook
+└── Kunskapskontroll 2/
+    ├── Kunskapskontroll 2.ipynb       # Jupyter notebook for model training
+    ├── main.py                        # Real-time emotion detection script
+    ├── model_file.keras               # Trained CNN model file
+    ├── haarcascade_frontalface_default.xml  # Haar cascade for face detection
+    ├── history_plot.png               # Training accuracy/loss plot
+    └── README.md                      # This file
